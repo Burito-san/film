@@ -1,0 +1,45 @@
+/* * {
+    border: 1px solid white;
+    padding: 2px;
+} */
+
+.container {
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 25px;
+
+    padding: 10px;
+}
+
+.picture {
+    width: 350px;
+}
+
+.top {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.information_about_film, .bottom {
+    background-color: rgb(66, 66, 66);
+    padding : 26px;
+}
+
+.bottom {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+

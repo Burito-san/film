@@ -1,0 +1,105 @@
+.popup {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.749);
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_content {
+    width: 500px;
+    height: 350px;
+    background-color: rgb(43, 43, 43);  
+
+    font-size: 140%;
+    gap:35px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+
+}
+
+.popup_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.cross {
+    margin-top: 12px;
+    margin-right: 13px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    --weight: 0.3px;
+    --aa: 1px;
+    --color: #989898;
+    background:
+    linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
+    linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
+    border: none;
+}
+
+.input {
+    border: 1px solid white;
+    background-color: rgb(64, 64, 64);
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+
+    margin-top: 5px;
+    border: #989898 1px solid;
+    border-radius: 0px;
+    background-color: rgb(70, 34, 34);
+    width: 300px;
+}
+
+.input::placeholder{
+    color: rgb(208, 208, 208);
+    font-weight: 100;
+
+}
+
+.form_atho {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-left: 20 px;
+    gap: 15px;
+}
+
+.h1 {
+    margin:7px;
+}
+
+.send {
+    height: 30px;
+    width: 105px;   
+    background-color: rgba(70, 34, 34, 0.718);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    transition: 80ms;
+}
+
+.send:active {
+    transition: 80ms;
+    background-color: rgba(59, 18, 18, 0.912);
+    transform: scale(0.9);
+    color: rgba(226, 189, 120, 0.732);
+    border: 1px solid rgba(231, 190, 116, 0.658);
+}
+

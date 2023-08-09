@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    background-color: rgb(70, 34, 34);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    height: 10%;
+}
+
+.home-icon {
+    font-family: 'Lucida Console';
+    color: white;
+    font-size: 35px;
+}
+
+.login {
+    border: 1px solid white;
+    background-color: rgb(64, 64, 64);
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+}
+
+.login:hover{
+    background-color: rgb(89, 89, 89);
+    
+}
+
+.login:active{
+    transition: 50ms;
+    background-color: rgb(93, 93, 93);
+    transform: scale(0.95);
+    color: rgb(172, 157, 139);
+    font-weight: bold;
+}
+
+.qwer {
+    display: flex;
+    gap: 10px;
+}
